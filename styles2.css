@@ -1,0 +1,166 @@
+#header{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 5px; 
+    border-style: solid;
+    text-align: center;
+    background-color: #ebebeb;
+    color:black; /* färg på texten */
+    font-size: 20px; /* ändrar strl på textn*/
+    font-family: Verdana;
+
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration:0; /*  var 0 */
+    border: 0;
+    color:currentColor;
+
+}
+.navbar a:hover{
+    color: #666;
+    border-color: 0;
+}
+
+h2{
+    font-family: Arial;
+    text-align: center;
+    color: black;
+}
+/*
+div{
+   margin-left: 100px;
+   margin-right: 100px;
+    text-align: center;
+}
+*/
+
+figure{
+    background-color: #ebebeb;
+    border: 2px; 
+    padding: 5px;
+    text-align: center;
+
+}
+figcaption{
+  
+  background-color:darkgoldenrod;
+  padding: 5px 5px;
+    
+}
+
+.footer {
+  position: fixed; /* Footen är alltid synlig när man skrollar ner*/
+  left: 0;         /* Footer börjar från sidans vänstra kant*/
+  bottom: 0;         /*Footern går ända ner till kanten på sidan*/
+  width: 100%;       /*Footern går fr kant till kant, fr vänster kant till höger kant*/
+  background-color:teal; /* Färgen på footern, bakgrunds färg */
+  color: white;           /* Texten är vit*/
+  text-align: center;      /* Texten är centrerad */
+  padding: 10px;
+}
+
+
+/*
+h1{
+    border: 1000px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px;
+}
+*/
+
+
+/*
+#ul{
+    list-style: lower-roman;
+}
+li{
+    display: inline;
+}
+a:hover{
+    color:inherit;
+}
+a{
+    text-decoration: underline;
+}
+
+*/
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  form {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+  form input {
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1px solid #9c9c9c;
+  }
+  form button {
+    background: lightgrey;
+    padding: 0.7em;
+    border: 0;
+  }
+  form button:hover {
+    background: gold;
+  }
+  
+  label {
+    text-align: right;
+    display: block;
+    padding: 0.5em 1.5em 0.5em 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: 3px solid gold;
+  }
+  
+  @media (min-width: 400px) {
+    form {
+      overflow: hidden;
+    }
+  
+    label {
+      float: left;
+      width: 200px;
+    }
+  
+    input {
+      float: left;
+      width: calc(100% - 200px);
+    }
+  
+    button {
+      float: right;
+      width: calc(100% - 200px);
+    }
+  }
+
+
+
