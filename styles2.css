@@ -1,3 +1,4 @@
+
 #header{
     margin-left: 80px;
     margin-right: 80px;
@@ -35,13 +36,7 @@ h2{
     text-align: center;
     color: black;
 }
-/*
-div{
-   margin-left: 100px;
-   margin-right: 100px;
-    text-align: center;
-}
-*/
+
 
 figure{
     background-color: #ebebeb;
@@ -57,6 +52,7 @@ figcaption{
     
 }
 
+
 .footer {
   position: fixed; /* Footen är alltid synlig när man skrollar ner*/
   left: 0;         /* Footer börjar från sidans vänstra kant*/
@@ -69,31 +65,7 @@ figcaption{
 }
 
 
-/*
-h1{
-    border: 1000px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 3px;
-}
-*/
 
-
-/*
-#ul{
-    list-style: lower-roman;
-}
-li{
-    display: inline;
-}
-a:hover{
-    color:inherit;
-}
-a{
-    text-decoration: underline;
-}
-
-*/
 
 
 
@@ -102,7 +74,8 @@ a{
     box-sizing: border-box;
   }
   
-  form {
+  
+  .minForm {
     padding: 1em;
     background: #f9f9f9;
     border: 1px solid #c1c1c1;
@@ -112,33 +85,33 @@ a{
     margin-right: auto;
     padding: 1em;
   }
-  form input {
+  .minForm input {
     margin-bottom: 1rem;
     background: #fff;
     border: 1px solid #9c9c9c;
   }
-  form button {
+  .minForm button {
     background: lightgrey;
     padding: 0.7em;
     border: 0;
   }
-  form button:hover {
-    background: gold;
+  .minForm button:hover {
+    background:black;
   }
   
-  label {
+  .minForm label {
     text-align: right;
     display: block;
     padding: 0.5em 1.5em 0.5em 0;
   }
   
-  input {
+  .minForm input {
     width: 100%;
     padding: 0.7em;
     margin-bottom: 0.5rem;
   }
-  input:focus {
-    outline: 3px solid gold;
+  .minForm input:focus {
+    outline: 3px solid darkgoldenrod;
   }
   
   @media (min-width: 400px) {
@@ -160,7 +133,16 @@ a{
       float: right;
       width: calc(100% - 200px);
     }
+  } 
+  #p{
+    font-size: medium;
+    font-style: italic;
   }
-
+  
+ 
+  
+  
+  
+ 
 
 

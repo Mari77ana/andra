@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <link rel="stylesheet" href="styles2.css"> 
+    <script scr="dom/js"></script>
 </head>
 <body>
     <header id="header">
         <h1>Hem ljuva hem</h1> 
             <nav class ="navbar">
-                <ul> <li><a href="hemsidaTest.html">Hemsida</a></li>
-                    <li><a href="kontakt2.html">Start</a></li>
+                <ul><li><a href="index.html">Hem</a></li>
+                    <li><a href="kontakt2.html">Kontakt</a></li>
                     <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
                 </ul>
             </nav>
@@ -22,25 +23,30 @@
 
 
         <figure>
-            <img src="images/fotöljBild.jpeg" style="width: 350px;" height="200px">  
-            <figcaption>En av våra stylingar</figcaption>
+            <img src="Bilder/images/fotöljBild.jpeg" style="width: 400px;" height="200px">  
+            <figcaption>Inspiration</figcaption>
         </figure>
 
 
 
 
-        <form class="form1">
-            <label for="firstName" class="first-name">First Name</label>
-            <input id="firstName" type="text">
+        <form class="minForm">
+            <label for="förNamn">För Namn</label>
+            <input type="text"  id="förNamn" name="förNamn"> <br>
   
-            <label for="lastName" class="last-name">Last Name</label>
-            <input id="lastName" type="text">
+            <label for="efterNamn">Efter Namn</label>
+            <input type="text" id="efterNamn" name="efterNamn"> <br>
   
-            <label for="email">Email</label>
-            <input id="email" type="email">
+            <label for="email">Mail Adress</label>
+            <input type ="text" id="mailAdress" type="mailAdress">
+
+            <label for="submit">Submit</label>
+
+            <button type="button" onclick="minFunktion(document.minForm)"></button>
   
-            <button>Submit</button>
-        </form>
+        </form> 
+        <p id="Tack"></p> 
+        <p id=#&#128151></p> 
 
 
     </main>
