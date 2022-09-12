@@ -1,6 +1,6 @@
-
+/*
 function minFunktion(minForm) {
-    let children = document.getElementById("form").children  //dokumenten sparas i variabeln children 
+    let children = document.getElementById("minForm").children  //dokumenten sparas i variabeln children 
     
     
     for(let i=0; i<children.length; i++){
@@ -8,14 +8,17 @@ function minFunktion(minForm) {
     }
        
 }
+*/
+/*let kontakt = ['förNamn']['efterNamn']['mailAdress'];*/
 function minFunktion(minForm) {
-    let formFyllnad = document.form["minForm"]["förNamn"]["efterNamn"]["mailAdress"].value;
-    if (formFyllnad == "") {
+    let kontakt = document.Form["minForm"]["förNamn"]["efterNamn"]["mailAdress"].value;
+
+    if (kontakt == "") {
       alert("Vänligen fyll i namn, efternamn och mail adress");
       
     }
     else{
-        document.getElementById("tack","&#128151").innerHTML="Tack!, vi hör av oss så fort vi kan."
+        document.getElementById("tack").innerHTML="Tack!, vi hör av oss så fort vi kan."
 
     }
   }
