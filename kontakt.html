@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js"></script>
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Hem ljuva hem</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <figure>
+        <img src="Bilder/images/fotöljBild.jpeg" alt='fotölj' style="width:
+        400px;" height="200px">
+        <figcaption>Inspiration</figcaption>
+      </figure>
+
+      <form>
+        <label for="inputFornamn">Förnamn</label>
+        <input type="text" id="fornamn" name="inputFornamn" /> <br />
+
+        <label for="inputEternamn">Efternamn</label>
+        <input type="text" id="efternamn" name="inputEfternamn" /> <br />
+
+        <label for="inputEmail">Email</label>
+        <input type="text" id="email" name="inputEmail" />
+
+        <!--<label for="submit">Submit</label>-->
+        <button type="button" onclick="formFunktion()">Submit</button>
+      </form>
+
+      <section>
+        <p id="tack"></p>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <i>Made by Mariana</i>
+      </div>
+    </footer>
+  </body>
+</html>
