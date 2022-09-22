@@ -7,7 +7,7 @@
   background-color: #ebebeb;
   color: black; /* färg på texten */
   font-size: 20px; /* ändrar strl på textn*/
-  font-family: Verdana;
+  font-family: Verdana; 
 }
 .navbar ul {
   list-style: none;
@@ -66,11 +66,11 @@ form {
   border: 1px solid #c1c1c1;
   margin-top: 2rem;
   max-width: 600px;
-  margin-left: auto;
+  margin-left: auto;  /* Centrerad i mitten*/
   margin-right: auto;
   padding: 1em;
 }
-form input {
+form input {     /* där användaren skriver in*/
   margin-bottom: 1rem;
   background: #fff;
   border: 1px solid #9c9c9c;
@@ -83,38 +83,37 @@ form button {
   padding: 0.7em;
   border: 0;
 }
-.minForm button:hover {
-  background: black;
-}
 
 form label {
-  text-align: right;
-  display: block;
-  padding: 0.5em 1.5em 0.5em 0;
+  text-align: left;  /* texten ska så till vänster*/
+ /* display: block;*/
+  
 }
 form input:focus {
-  outline: 3px solid darkgoldenrod;
+  outline: 3px solid darkgoldenrod; /* ramen ändrar färg när man skriver in namn */
 }
 
-@media (min-width: 400px) {
+
+@media (max-width: 400px) {   /* Ger ett ljust grått bakgrund till inputen*/
   form {
-    overflow: hidden;
+    overflow: hidden; /* detta gör att det blir hela, alla input raderna*/
+    background-color: red;
   }
-  
+
+  header {
+    text-align: center;
+    background-color: #ebebeb;
+  }
+
 
   label {
-    float: left;
+    float: left;  /* texten är  till vänster*/
     width: 200px;
   }
-
-  input {
-    float: left;
-    width: calc(100% - 200px);
-  }
-
+  
   button {
     float: right;
-    width: calc(100% - 200px);
+    width: 100% 
   }
 }
 
@@ -139,5 +138,13 @@ aside {
   background-color: #bebebe;
   color: black;
   padding: 10px;
-  margin-top: 200px;
+  margin-top: 130px; /* 130px så det ligger precis jämnt med sista raden på texten*/
 }
+
+table, th, td {
+  border:1px solid black;/* ramen runt om*/
+  padding: 10px;           /*texten från border*/
+  background-color: #bebebe;
+  margin-top: 30px;
+}
+
